@@ -1,5 +1,5 @@
 # 定存股
-* [大盤 0000] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=0000&CHT_CAT2=DATE)
+* [大盤 0000] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=%E5%8A%A0%E6%AC%8A%E6%8C%87%E6%95%B8&CHT_CAT2=DATE)
 * [台灣50 0050] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=0050&CHT_CAT2=DATE)
 * [永豐金 2890] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2890&CHT_CAT2=DATE)
 * [中信金 2891] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2891&CHT_CAT2=DATE)
