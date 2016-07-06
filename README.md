@@ -1,6 +1,7 @@
 # 定存股
 * [加權指數] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=%E5%8A%A0%E6%AC%8A%E6%8C%87%E6%95%B8&CHT_CAT2=DATE)  [0000](http://histock.tw/stock/tcharti.aspx?no=0000)
 * [台灣50 0050] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=0050&CHT_CAT2=DATE)
+* [台灣56 0056] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=0056&CHT_CAT2=DATE)
 * [台灣50反1 00632R] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=00632R&CHT_CAT2=DATE)
 
 * [第一金 2892] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2892&CHT_CAT2=DATE)
