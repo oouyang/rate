@@ -29,6 +29,10 @@
 * [興富發 2542] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2542&CHT_CAT2=DATE)
 * [楠梓電 2316] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2316&CHT_CAT2=DATE)
 * [中鋼 2002] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2002&CHT_CAT2=DATE)
+* [精英 2331] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2331&CHT_CAT2=DATE)
+* [國眾 5410] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=5410&CHT_CAT2=DATE)
+* [揚博 2493] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2493&CHT_CAT2=DATE)
+* [精誠 6214] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=6214&CHT_CAT2=DATE)
 
 * [華祺 5015] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=5015&CHT_CAT2=DATE)
 * [聯電 2303] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2303&CHT_CAT2=DATE)
