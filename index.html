@@ -15,11 +15,17 @@ function myFunction(response,myid) {
     var arr = JSON.parse(response);
     var i;
     var out = "<table>";
+    var base="http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=";
 
     for(i = arr.length - 1; i >= 0 ; i--) {
         out += "<tr><td>" +
-        "<a href=http://goodinfo.tw/StockInfo/ShowK_Chart.asp?CHT_CAT2=DATE&STOCK_ID=" + arr[i][1] + ">[" + arr[i][0] + " " +
-        arr[i][1] + "]</a>" +
+        "<a href=" + base + arr[i][1] + ">[" + arr[i][0] + " " +
+        arr[i][1] + 
+        " <a href=" + base + arr[i][1] + "&CHT_CAT2=DATE" + ">" + "日" +
+        " <a href=" + base + arr[i][1] + "&CHT_CAT2=WEEK" + ">" + "月" +
+        " <a href=" + base + arr[i][1] + "&CHT_CAT2=QUAR" + ">" + "季" +
+        " <a href=" + base + arr[i][1] + "&CHT_CAT2=YEAR" + ">" + "年" +
+        " ]</a>" +
         "</td></tr>";
     }
     out += "</table>";
