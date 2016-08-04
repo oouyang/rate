@@ -11,7 +11,7 @@
 * [富邦台灣發達 0058] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=0058&CHT_CAT2=DATE)
 * [富邦台灣金融 0059] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=0059&CHT_CAT2=DATE)
 * [元大摩台基金 006203] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=006203&CHT_CAT2=DATE)
-* [永豐臺灣加權 006204] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=005204&CHT_CAT2=DATE)
+* [永豐臺灣加權 006204] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=006204&CHT_CAT2=DATE)
 * [富邦釆吉50 ETF 006208] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=006208&CHT_CAT2=DATE)
 * [台灣50反1 00632R] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=00632R&CHT_CAT2=DATE)
 * [台灣50正1 00631L] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=00631L&CHT_CAT2=DATE)
