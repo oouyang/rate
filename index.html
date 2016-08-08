@@ -21,7 +21,7 @@ xmlhttp.send();
 function myFunction(response,myid) {
     var arr = JSON.parse(response);
     var i;
-    var out = "<table>";
+    var out = "<table border=1>";
     var base="http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=";
 
     for(i = arr.length - 1; i >= 0 ; i--) {
