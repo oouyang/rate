@@ -1,4 +1,5 @@
 # 定存股
+# what
 * [加權指數] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=%E5%8A%A0%E6%AC%8A%E6%8C%87%E6%95%B8&CHT_CAT2=DATE)  [0000](http://histock.tw/stock/tcharti.aspx?no=0000)
 * [元大台灣卓越 0050] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=0050&CHT_CAT2=DATE)
 * [元大台灣中型 0051] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=0051&CHT_CAT2=DATE)
