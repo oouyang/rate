@@ -21,7 +21,7 @@
 * [永豐金 2890] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2890&CHT_CAT2=DATE)
 * [中信金 2891] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2891&CHT_CAT2=DATE)
 * [台新金 2887] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2887&CHT_CAT2=DATE)
-* [台新金 2881] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2881&CHT_CAT2=DATE)
+* [富邦金 2881] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2881&CHT_CAT2=DATE)
 
 * [佳能 2374] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2374&CHT_CAT2=DATE)
 * [遠雄 5522] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=5522&CHT_CAT2=DATE)
