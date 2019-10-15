@@ -40,4 +40,8 @@
 
 * [六福村 2705] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2705&CHT_CAT2=DATE)
 
+* [佳醫 4104] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=4104&CHT_CAT2=DATE)
+* [杏昌 1788] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=1788&CHT_CAT2=DATE)
+* [邦特 4107] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=4107&CHT_CAT2=DATE)
+
 
