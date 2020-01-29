@@ -44,4 +44,15 @@
 * [杏昌 1788] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=1788&CHT_CAT2=DATE)
 * [邦特 4107] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=4107&CHT_CAT2=DATE)
 
+* [豐藝	6189] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=6189&CHT_CAT2=DATE)
+* [中菲	5403] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=5403&CHT_CAT2=DATE)
+* [新巨 2420] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2420&CHT_CAT2=DATE)
+* [鎰勝	6115] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=6115&CHT_CAT2=DATE)
+* [英業達 2356] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2356&CHT_CAT2=DATE)
+* [固緯 2423] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2423&CHT_CAT2=DATE)
+* [仁寶 2324] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2324&CHT_CAT2=DATE)
+* [佳醫	4104] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=4104&CHT_CAT2=DATE)
+* [詮欣	6205] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=6205&CHT_CAT2=DATE)
+* [福興 9924] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=9924&CHT_CAT2=DATE)
+
 
