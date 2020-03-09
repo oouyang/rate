@@ -56,4 +56,10 @@
 * [詮欣	6205] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=6205&CHT_CAT2=DATE)
 * [福興 9924] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=9924&CHT_CAT2=DATE)
 
+* [統一超	2912] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2912&CHT_CAT2=DATE)
+* [台灣大	3045] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=3045&CHT_CAT2=DATE)
+* [研華 2395] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2395&CHT_CAT2=DATE)
+
+
+
 
