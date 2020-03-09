@@ -52,7 +52,6 @@
 * [英業達 2356] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2356&CHT_CAT2=DATE)
 * [固緯 2423] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2423&CHT_CAT2=DATE)
 * [仁寶 2324] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2324&CHT_CAT2=DATE)
-* [佳醫	4104] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=4104&CHT_CAT2=DATE)
 * [詮欣	6205] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=6205&CHT_CAT2=DATE)
 * [福興 9924] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=9924&CHT_CAT2=DATE)
 
