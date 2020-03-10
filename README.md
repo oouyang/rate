@@ -14,15 +14,14 @@
 * [元大摩台基金 006203] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=006203&CHT_CAT2=DATE)
 * [永豐臺灣加權 006204] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=006204&CHT_CAT2=DATE)
 * [富邦釆吉50 ETF 006208] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=006208&CHT_CAT2=DATE)
-* [台灣50反1 00632R] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=00632R&CHT_CAT2=DATE)
-* [台灣50正1 00631L] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=00631L&CHT_CAT2=DATE)
-
+ 
 * [第一金 2892] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2892&CHT_CAT2=DATE)
 * [永豐金 2890] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2890&CHT_CAT2=DATE)
 * [中信金 2891] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2891&CHT_CAT2=DATE)
 * [台新金 2887] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2887&CHT_CAT2=DATE)
 * [富邦金 2881] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2881&CHT_CAT2=DATE)
 * [兆豐金 2886] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2886&CHT_CAT2=DATE)
+* [玉山金 2884] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2884&CHT_CAT2=DATE)
 
 * [佳能 2374] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2374&CHT_CAT2=DATE)
 * [遠雄 5522] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=5522&CHT_CAT2=DATE)
@@ -55,8 +54,8 @@
 * [詮欣	6205] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=6205&CHT_CAT2=DATE)
 * [福興 9924] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=9924&CHT_CAT2=DATE)
 
-* [統一超	2912] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2912&CHT_CAT2=DATE)
-* [台灣大	3045] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=3045&CHT_CAT2=DATE)
+* [統一超 2912] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2912&CHT_CAT2=DATE)
+* [台灣大 3045] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=3045&CHT_CAT2=DATE)
 * [研華 2395] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2395&CHT_CAT2=DATE)
 
 
