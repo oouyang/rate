@@ -23,6 +23,7 @@
 * [兆豐金 2886] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2886&CHT_CAT2=DATE)
 * [玉山金 2884] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2884&CHT_CAT2=DATE)
 * [京城金 2809] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2809&CHT_CAT2=DATE)
+* [國泰金 2882] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2882&CHT_CAT2=DATE)
 
 * [佳能 2374] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2374&CHT_CAT2=DATE)
 * [遠雄 5522] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=5522&CHT_CAT2=DATE)
