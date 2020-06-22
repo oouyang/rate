@@ -55,6 +55,7 @@
 
 * [華祺 5015] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=5015&CHT_CAT2=DATE)
 * [聯電 2303] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2303&CHT_CAT2=DATE)
+* [統一 1216] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=1216&CHT_CAT2=DATE)
 
 * [六福村 2705] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2705&CHT_CAT2=DATE)
 
