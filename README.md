@@ -1,6 +1,7 @@
 # 定存股
 # what
 * [加權指數] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=%E5%8A%A0%E6%AC%8A%E6%8C%87%E6%95%B8&CHT_CAT2=DATE)  [0000](http://histock.tw/stock/tcharti.aspx?no=0000)
+* [台積電 2330] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2330&CHT_CAT2=DATE)
 * [元大台灣卓越 0050] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=0050&CHT_CAT2=DATE)
 * [元大台灣中型 0051] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=0051&CHT_CAT2=DATE)
 * [富邦台灣科技 0052] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=0052&CHT_CAT2=DATE)
@@ -38,6 +39,8 @@
 * [日盛銀 5820] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=5820&CHT_CAT2=DATE)
 * [合庫金 5880] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=5880&CHT_CAT2=DATE)
 
+
+* [寶雅 5904] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=5904&CHT_CAT2=DATE)
 * [佳能 2374] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2374&CHT_CAT2=DATE)
 * [遠雄 5522] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=5522&CHT_CAT2=DATE)
 * [遠見 3040] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=3040&CHT_CAT2=DATE)
