@@ -15,6 +15,7 @@
 * [元大摩台基金 006203] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=006203&CHT_CAT2=DATE)
 * [永豐臺灣加權 006204] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=006204&CHT_CAT2=DATE)
 * [富邦釆吉50 ETF 006208] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=006208&CHT_CAT2=DATE)
+* [國泰永續高股息 ETF 00878] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=00878&CHT_CAT2=DATE)
  
 * [永豐金 2890] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2890&CHT_CAT2=DATE)
 * [中信金 2891] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2891&CHT_CAT2=DATE)
