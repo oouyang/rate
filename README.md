@@ -17,6 +17,8 @@
 * [富邦釆吉50 ETF 006208] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=006208&CHT_CAT2=DATE)
 * [國泰永續高股息 ETF 00878] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=00878&CHT_CAT2=DATE)
 * [元大台灣高息低波	 ETF 00713] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=00713&CHT_CAT2=DATE)
+* [國泰永續高股息 ETF 00919] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=00919&CHT_CAT2=DATE)
+* [元大台灣高息低波	 ETF 00929] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=00929&CHT_CAT2=DATE)
  
 * [永豐金 2890] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2890&CHT_CAT2=DATE)
 * [中信金 2891] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=2891&CHT_CAT2=DATE)
