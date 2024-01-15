@@ -5,16 +5,16 @@
 |  ----  | ----  |  ----  | ----  |
 | [00878](https://www.cathaysite.com.tw/proj/2021/afa/)  | 台新 |00881  | 第一 |
 | [0056](https://www.yuantafunds.com/etf-div-account)  | 中國信託 |00882  | 兆豐 |
-| 006208  | 第一 |00888  | 合庫 |
-| 0050  | 中國信託 |00893  | 兆豐 |
-| 00713  | 台灣 |00900  | 永豐 |
+| [006208](https://etrade.fsit.com.tw/Event/ETFdividend/index.aspx)  | 第一 |00888  | 合庫 |
+| [0050](https://www.yuantafunds.com/etf-div-account)   | 中國信託 |00893  | 兆豐 |
+| [00713](https://www.yuantafunds.com/etf-div-account)   | 台灣 |00900  | 永豐 |
 | 00725b  | 玉山 |00907  | 台灣 |
 | 00772b  | 永豐 |[00919](https://www.capitalfund.com.tw/etfdividend)  | 中國信託 |
 | 2330  | 中國信託 |[00929](https://www.fhtrust.com.tw/ETF_custService/)  | 富邦 |
 | 00915  | 彰化 |00918  | 台灣中小企業銀行 |
-| 00922  | 中國信託 |00924  | 富邦 |
+| 00922  | 中國信託 |[00924](](https://www.fhtrust.com.tw/ETF_custService/))  | 富邦 |
 | 00923  | 中國信託 |00935  | 永豐 |
-| 0052  | 台新 | 00850 | 永豐 |
+| [0052](https://etrade.fsit.com.tw/Event/ETFdividend/index.aspx)  | 台新 | 00850 | 永豐 |
 
 # what
 * [加權指數] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=%E5%8A%A0%E6%AC%8A%E6%8C%87%E6%95%B8&CHT_CAT2=DATE)  [0000](http://histock.tw/stock/tcharti.aspx?no=0000)
