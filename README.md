@@ -10,7 +10,7 @@
 | [00713](https://www.yuantafunds.com/etf-div-account)   | 台灣 |00900  | 永豐 |
 | 00725b  | 玉山 |00907  | 台灣 |
 | 00772b  | 永豐 |[00919](https://www.capitalfund.com.tw/etfdividend)  | 中國信託 |
-| 2330  | 中國信託 |[00929](https://www.fhtrust.com.tw/ETF_custService/)  | 富邦 |
+| [2330](https://ecorp.chinatrust.com.tw/cts/pdf/stock_c_u.pdf)  | 中國信託 |[00929](https://www.fhtrust.com.tw/ETF_custService/)  | 富邦 |
 | 00915  | 彰化 |00918  | 台灣中小企業銀行 |
 | 00922  | 中國信託 |[00924](](https://www.fhtrust.com.tw/ETF_custService/))  | 富邦 |
 | 00923  | 中國信託 |00935  | 永豐 |
