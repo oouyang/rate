@@ -15,7 +15,7 @@
 | 00922  | 中國信託 |[00924](](https://www.fhtrust.com.tw/ETF_custService/))  | 富邦 |
 | [00923](https://www.capitalfund.com.tw/etfdividend)  | 中國信託 |00935  | 永豐 |
 | [0052](https://etrade.fsit.com.tw/Event/ETFdividend/index.aspx)  | 台新 | 00850 | 永豐 |
-| [00937b](https://www.capitalfund.com.tw/etfdividend) | 彰化 | 00936 |  |
+| [00937b](https://www.capitalfund.com.tw/etfdividend) | 彰化 | 00936 |  兆豐 |
 
 # what
 * [加權指數] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=%E5%8A%A0%E6%AC%8A%E6%8C%87%E6%95%B8&CHT_CAT2=DATE)  [0000](http://histock.tw/stock/tcharti.aspx?no=0000)
