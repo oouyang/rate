@@ -32,8 +32,8 @@
 |富邦台灣金融|0059|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=0059)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=0059&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
 |元大摩台基金|006203|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=006203)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=006203&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
 |永豐臺灣加權|006204|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=006204)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=006204&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
-|富邦釆吉50|ETF|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=ETF)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=ETF&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
-|國泰永續高股息|ETF|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=ETF)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=ETF&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
+|富邦釆吉50ETF|006208|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=006208)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=006208&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
+|國泰永續高股息ETF|00878|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00878)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00878&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
 |元大台灣高息低波|ETF|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=ETF)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=ETF&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
 |群益台灣精選高息|00919|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00919)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00919&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
 |復華台灣科技優息|00929|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00929)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00929&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
@@ -97,8 +97,6 @@
 |台灣大|3045|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=3045)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=3045&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
 |研華|2395|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=2395)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=2395&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
 |好樂迪|9943|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=9943)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=9943&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
-
-
 
 # what
 * [加權指數] (http://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=%E5%8A%A0%E6%AC%8A%E6%8C%87%E6%95%B8&CHT_CAT2=DATE)  [0000](http://histock.tw/stock/tcharti.aspx?no=0000)
