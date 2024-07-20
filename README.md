@@ -16,7 +16,7 @@
 | [00923](https://www.capitalfund.com.tw/etfdividend)  | 中國信託 |00935  | 永豐 |
 | [0052](https://etrade.fsit.com.tw/Event/ETFdividend/index.aspx)  | 台新 | 00850 | 永豐 |
 | [00937b](https://www.capitalfund.com.tw/etfdividend) | 彰化 | 00936 |  兆豐 |
-| [00936](https://www.capitalfund.com.tw/etfdividend) |中國信託 |||
+| [00946](https://www.capitalfund.com.tw/etfdividend) |中國信託 |||
 
 |股票|#|日|週|
 |---|---|---|---|
