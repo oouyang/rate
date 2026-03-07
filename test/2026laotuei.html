@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>勞退帳戶年度績效分析報告 (2025-2026)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+            }
+        }
+        .tab-btn.active {
+            background-color: #0f172a;
+            color: #ffffff;
+            border-color: #0f172a;
+        }
+    </style>
+    <!-- Chosen Palette: Slate (neutral/calm), Emerald (positive growth), Blue (stability) -->
+    <!-- Application Structure Plan: This SPA uses a dashboard layout tailored for financial review. It opens with high-level KPI cards for immediate satisfaction (Net Value, Growth). It then transitions into a two-column interactive visualization section: one for chronological growth (bar chart) and one for asset composition/'moat' (doughnut chart) to validate the security of the funds. Finally, it uses an interactive tabbed interface to present qualitative advantages and recommendations without overwhelming the user with text, encouraging exploration of the report's insights. -->
+    <!-- Visualization & Content Choices: 
+         1. Core Metrics -> Goal: Inform -> KPI Cards -> Easy scanning of top-line numbers -> HTML/CSS.
+         2. Asset Growth (2025 vs 2026) -> Goal: Compare/Change -> Stacked Bar Chart -> Hover for exact amounts -> Shows absolute growth of cost vs profit clearly -> Chart.js.
+         3. Portfolio Moat (Profit vs Cost) -> Goal: Proportions/Relationships -> Doughnut Chart -> Hover interaction -> Visually reinforces the "40.4% profit shield" concept -> Chart.js.
+         4. Benchmark Comparison -> Goal: Compare -> Horizontal Bar Chart -> Highlights 14.06% vs 6% -> Chart.js.
+         5. Advantages & Outlook -> Goal: Organize text -> Interactive Tabs -> Click to reveal content -> Keeps UI clean while providing full report depth -> Vanilla JS. 
+         Confirming NO SVG/Mermaid used. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-emerald-200">
+
+    <nav class="bg-slate-900 text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center space-x-3">
+                    <span class="text-2xl">📈</span>
+                    <span class="font-bold text-xl tracking-wider">勞退績效分析儀</span>
+                </div>
+                <div class="text-sm font-medium text-slate-300">
+                    2025/03 - 2026/03
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+        
+        <header class="text-center space-y-4 max-w-3xl mx-auto">
+            <h1 class="text-3xl md:text-4xl font-extrabold text-slate-900">您的資產正處於<span class="text-emerald-600">高效增長期</span></h1>
+            <p class="text-lg text-slate-600">本儀表板深度拆解您的勞退新制個人專戶績效。勞退帳戶具備「免稅」與「複利」特性，透過以下互動數據，您將了解過去一年強大的複利威力與資產護城河。</p>
+        </header>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6 hover:shadow-md transition-shadow">
+                <div class="text-sm font-semibold text-slate-500 mb-1">帳戶總淨額 (2026/03)</div>
+                <div class="text-3xl font-bold text-slate-800">4,730,033 <span class="text-base font-normal text-slate-500">元</span></div>
+                <div class="mt-2 text-sm font-medium text-emerald-600 bg-emerald-50 inline-block px-2 py-1 rounded">
+                    + 819,632 元 (年度總增長)
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6 hover:shadow-md transition-shadow">
+                <div class="text-sm font-semibold text-slate-500 mb-1">加權年化報酬率</div>
+                <div class="text-3xl font-bold text-emerald-600">14.06 <span class="text-base font-normal text-slate-500">%</span></div>
+                <div class="mt-2 text-sm font-medium text-slate-600">
+                    遠超勞動基金歷史平均 (5-6%)
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6 hover:shadow-md transition-shadow">
+                <div class="text-sm font-semibold text-slate-500 mb-1">年度淨收益 (當年 P/L)</div>
+                <div class="text-3xl font-bold text-slate-800">567,632 <span class="text-base font-normal text-slate-500">元</span></div>
+                <div class="mt-2 text-sm font-medium text-slate-600">
+                    較去年收益增加 48,568 元
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6 hover:shadow-md transition-shadow">
+                <div class="text-sm font-semibold text-slate-500 mb-1">年度新增投入</div>
+                <div class="text-3xl font-bold text-slate-800">252,000 <span class="text-base font-normal text-slate-500">元</span></div>
+                <div class="mt-2 text-sm font-medium text-slate-600">
+                    平均每月約 21,000 元
+                </div>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6">
+                <h2 class="text-xl font-bold text-slate-800 mb-2">資產成長軌跡 (本金與收益)</h2>
+                <p class="text-sm text-slate-600 mb-6">觀察過去一年，您的投入本金穩步增加，而累積收益的增長幅度更為驚人，展現了強大的規模化獲利能力。</p>
+                <div class="chart-container">
+                    <canvas id="growthChart"></canvas>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6">
+                <h2 class="text-xl font-bold text-slate-800 mb-2">獲利品質：您的「資產護城河」</h2>
+                <p class="text-sm text-slate-600 mb-6">累積收益佔總資產的比例從去年的 34.3% 提升至 40.4%。這代表超過四成的資金是「錢滾錢」產生的，為原始本金提供龐大的保護。</p>
+                <div class="chart-container">
+                    <canvas id="moatChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-slate-900 rounded-xl shadow-lg p-8 text-white">
+            <h2 class="text-2xl font-bold mb-6 text-center">績效基準對比</h2>
+            <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
+                <div class="w-full md:w-1/2 chart-container" style="height: 200px;">
+                    <canvas id="benchmarkChart"></canvas>
+                </div>
+                <div class="w-full md:w-1/2 space-y-4">
+                    <div class="flex items-start space-x-3">
+                        <span class="text-emerald-400 text-2xl mt-1">🥇</span>
+                        <div>
+                            <h3 class="font-bold text-lg">穩定超越大盤</h3>
+                            <p class="text-slate-300 text-sm">您的帳戶在過去一年實現了 14.06% 的增長，顯示近兩年全球股市的強勁確實帶動了勞退基金的分配收益，遠勝長期平均 5-6%。</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <span class="text-emerald-400 text-2xl mt-1">🚀</span>
+                        <div>
+                            <h3 class="font-bold text-lg">本金獲利雙成長</h3>
+                            <p class="text-slate-300 text-sm">一年內增加約 10% 的本金投入，總資產卻成長約 21%。多出來的 11% 增長完全來自於複利效應。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-xl shadow-sm border border-slate-100 p-6 overflow-hidden">
+            <div class="mb-8">
+                <h2 class="text-2xl font-bold text-slate-800 mb-2">勞退專屬優勢與未來展望</h2>
+                <p class="text-slate-600">勞退帳戶並非一般的投資帳戶，它具備特殊的制度紅利。點擊下方標籤探索您的優勢及未來行動建議。</p>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-6 border-b border-slate-200 pb-4" id="tab-buttons">
+                <button class="tab-btn active px-4 py-2 rounded-full border border-slate-300 text-sm font-semibold transition-colors focus:outline-none" data-target="tab-advantage">制度優勢</button>
+                <button class="tab-btn px-4 py-2 rounded-full border border-slate-300 text-slate-600 text-sm font-semibold hover:bg-slate-50 transition-colors focus:outline-none" data-target="tab-compounding">複利慣性</button>
+                <button class="tab-btn px-4 py-2 rounded-full border border-slate-300 text-slate-600 text-sm font-semibold hover:bg-slate-50 transition-colors focus:outline-none" data-target="tab-action">行動建議</button>
+            </div>
+
+            <div id="tab-content-container" class="min-h-[200px]">
+                <div id="tab-advantage" class="tab-pane animate-fade-in block">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-blue-50 p-5 rounded-lg border border-blue-100">
+                            <div class="text-blue-600 text-xl mb-2">⚖️</div>
+                            <h3 class="font-bold text-slate-800 mb-2">稅務遞延效應</h3>
+                            <p class="text-slate-600 text-sm">勞退自提部分在當年是不用繳稅的（從薪資所得中扣除）。如果您這 25 萬投入中有部分是自提，實際上的節稅效益會讓您的「隱形成本」更低。</p>
+                        </div>
+                        <div class="bg-blue-50 p-5 rounded-lg border border-blue-100">
+                            <div class="text-blue-600 text-xl mb-2">🛡️</div>
+                            <h3 class="font-bold text-slate-800 mb-2">政府保底機制</h3>
+                            <p class="text-slate-600 text-sm">勞退依法有「兩年期定期存款利率」的收益保證。不過以您目前 14.06% 的報酬率來看，帳戶績效早已遠超保底門檻，處於絕對安全的狀態。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-compounding" class="tab-pane animate-fade-in hidden">
+                    <div class="bg-slate-50 p-6 rounded-lg border border-slate-200">
+                        <h3 class="font-bold text-xl text-slate-800 mb-4 flex items-center">
+                            <span class="mr-2"> snowball_effect </span> 勢不可擋的雪球
+                        </h3>
+                        <p class="text-slate-700 leading-relaxed mb-4">
+                            您的累積獲利已接近 <strong>200 萬大關 (1,910,922 元)</strong>。這意味著什麼？
+                        </p>
+                        <p class="text-slate-600 leading-relaxed">
+                            即使未來一年市場完全持平，或者只發生微小的波動，您的帳戶光靠現有的 <strong>473 萬資產</strong> 進行小幅增長，其年度增值金額就極有可能超過您一整年的薪資提繳額。這就是財富累積到了中期階段，資本收入逐漸追上甚至超越勞動收入的典型表現。
+                        </p>
+                    </div>
+                </div>
+
+                <div id="tab-action" class="tab-pane animate-fade-in hidden">
+                    <div class="space-y-4">
+                        <div class="flex items-start border-l-4 border-emerald-500 pl-4 py-1">
+                            <div>
+                                <h4 class="font-bold text-slate-800">持續自提 (若尚未全額)</h4>
+                                <p class="text-sm text-slate-600 mt-1">鑑於勞退帳戶目前展現出的強大複利能力（14% 報酬率），若您尚未提繳滿 6%，建議可以考慮加滿，以享受更高額度的節稅與複利效果。</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start border-l-4 border-emerald-500 pl-4 py-1">
+                            <div>
+                                <h4 class="font-bold text-slate-800">建立資產安全感</h4>
+                                <p class="text-sm text-slate-600 mt-1">473 萬的勞退準備金在台灣已屬於領先群。這筆錢在 60 歲前無法提領，這反而是強迫您進行「長期投資」的最佳工具，能有效規避市場恐慌時的人為亂操作。</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start border-l-4 border-emerald-500 pl-4 py-1">
+                            <div>
+                                <h4 class="font-bold text-slate-800">留意年度分配時間</h4>
+                                <p class="text-sm text-slate-600 mt-1">勞保局通常在每年 3 月進行前一年度的收益分配，您看到的 2026/3 數據應已包含 2025 全年度的豐厚分紅。未來可固定於每年 3 月底檢視成效。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-6 text-center text-sm">
+        <p>基於 2025/03/06 至 2026/03/05 之勞退帳戶數據生成</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            const rawData = {
+                y2025: { cost: 2567111, profit: 1343290, total: 3910401 },
+                y2026: { cost: 2819111, profit: 1910922, total: 4730033 }
+            };
+
+            const formatCurrency = (val) => new Intl.NumberFormat('zh-TW', { style: 'currency', currency: 'TWD', maximumFractionDigits: 0 }).format(val);
+
+            const growthCtx = document.getElementById('growthChart').getContext('2d');
+            new Chart(growthCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['2025/03/06', '2026/03/05'],
+                    datasets: [
+                        {
+                            label: '累積投入 (本金)',
+                            data: [rawData.y2025.cost, rawData.y2026.cost],
+                            backgroundColor: '#3b82f6', 
+                            stack: 'Stack 0',
+                        },
+                        {
+                            label: '累積收益 (獲利)',
+                            data: [rawData.y2025.profit, rawData.y2026.profit],
+                            backgroundColor: '#10b981', 
+                            stack: 'Stack 0',
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'top' },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return context.dataset.label + ': ' + formatCurrency(context.raw);
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            stacked: true,
+                            ticks: {
+                                callback: function(value) { return value / 10000 + '萬'; }
+                            }
+                        },
+                        x: { stacked: true }
+                    }
+                }
+            });
+
+            const moatCtx = document.getElementById('moatChart').getContext('2d');
+            new Chart(moatCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['累積投入 (59.6%)', '累積收益 (40.4%)'],
+                    datasets: [{
+                        data: [rawData.y2026.cost, rawData.y2026.profit],
+                        backgroundColor: ['#3b82f6', '#10b981'],
+                        hoverOffset: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '65%',
+                    plugins: {
+                        legend: { position: 'bottom' },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return context.label + ': ' + formatCurrency(context.raw);
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            const benchCtx = document.getElementById('benchmarkChart').getContext('2d');
+            Chart.defaults.color = '#cbd5e1'; 
+            new Chart(benchCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['您的加權年化報酬', '勞動基金長期平均'],
+                    datasets: [{
+                        label: '報酬率 (%)',
+                        data: [14.06, 5.5], 
+                        backgroundColor: ['#10b981', '#475569'],
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) { return context.raw + '%'; }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            grid: { color: '#334155' }
+                        },
+                        y: {
+                            grid: { display: false }
+                        }
+                    }
+                }
+            });
+
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            const tabPanes = document.querySelectorAll('.tab-pane');
+
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    tabBtns.forEach(b => {
+                        b.classList.remove('active', 'bg-slate-900', 'text-white');
+                        b.classList.add('text-slate-600', 'hover:bg-slate-50');
+                    });
+                    btn.classList.add('active');
+                    btn.classList.remove('text-slate-600', 'hover:bg-slate-50');
+
+                    const targetId = btn.getAttribute('data-target');
+                    tabPanes.forEach(pane => {
+                        if (pane.id === targetId) {
+                            pane.classList.remove('hidden');
+                        } else {
+                            pane.classList.add('hidden');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
