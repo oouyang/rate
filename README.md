@@ -3,6 +3,8 @@
 # 保管銀行
 |  ETF   | 保管銀行  | ETF   | 保管銀行  |
 |  ----  | ----  |  ----  | ----  |
+| [00662](https://etrade.fsit.com.tw/Event/ETFdividend/index.aspx)  | 中國信託 |[00865B](https://www.cathaysite.com.tw/proj/2021/afa/)  | 中國信託 |
+| [00670L](https://etrade.fsit.com.tw/Event/ETFdividend/index.aspx)  | 中國信託 |00881  | 第一 |
 | [00878](https://www.cathaysite.com.tw/proj/2021/afa/)  | 台新 |00881  | 第一 |
 | [0056](https://www.yuantafunds.com/etf-div-account)  | 中國信託 |00882  | 兆豐 |
 | [006208](https://etrade.fsit.com.tw/Event/ETFdividend/index.aspx)  | 第一 |00888  | 合庫 |
