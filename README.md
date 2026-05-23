@@ -22,9 +22,9 @@
 
 |股票|#|日|週|
 |---|---|---|---|
-|富邦NASDAQ|00662|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00662)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=2330&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
-|富邦NASDAQ正2|00670L|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00670L)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=2330&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
-|國泰US短期公債|00865B|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00865B)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=2330&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
+|富邦NASDAQ|00662|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00662)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00662&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
+|富邦NASDAQ正2|00670L|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00670L)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00670L&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
+|國泰US短期公債|00865B|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00865B)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00865B&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
 |元大台灣卓越|0050|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=0050)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=0050&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
 |元大台灣中型|0051|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=0051)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=0051&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
 |富邦台灣科技|0052|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=0052)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=0052&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
