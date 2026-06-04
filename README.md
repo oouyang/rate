@@ -22,6 +22,7 @@
 
 |股票|#|日|週|
 |---|---|---|---|
+|台積電|2330|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=2330)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=2330&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
 |富邦NASDAQ|00662|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00662)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00662&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
 |富邦NASDAQ正2|00670L|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00670L)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00670L&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
 |國泰US短期公債|00865B|[日線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00865B)|[週線](https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=00865B&CHT_CAT=WEEK&PRICE_ADJ=F&SCROLL2Y=100&SCROLL2Y=100)|
