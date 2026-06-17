@@ -1,4 +1,4 @@
-# 定存股 [html](https://oouyang.github.io/ubike/tw-stock-guide.html)
+# 定存股 [網頁版](https://oouyang.github.io/ubike/tw-stock-guide.html)
 
 # 保管銀行
 |  ETF   | 保管銀行  | ETF   | 保管銀行  |
