@@ -14,11 +14,21 @@
 | 00772b  | 永豐 |[00919](https://www.capitalfund.com.tw/etfdividend)  | 中國信託 |
 | [2330](https://ecorp.chinatrust.com.tw/cts/pdf/stock_c_u.pdf)  | 中國信託 |[00929](https://www.fhtrust.com.tw/ETF_custService/)  | 富邦 |
 | 00915  | 彰化 |00918  | 台灣中小企業銀行 |
-| 00922  | 中國信託 |[00924](](https://www.fhtrust.com.tw/ETF_custService/))  | 富邦 |
+| 00922  | 中國信託 |[00924](https://www.fhtrust.com.tw/ETF_custService/)  | 富邦 |
 | [00923](https://www.capitalfund.com.tw/etfdividend)  | 中國信託 |00935  | 永豐 |
 | [0052](https://etrade.fsit.com.tw/Event/ETFdividend/index.aspx)  | 台新 | 00850 | 永豐 |
 | [00937b](https://www.capitalfund.com.tw/etfdividend) | 彰化 | 00936 |  兆豐 |
-| [00946](https://www.capitalfund.com.tw/etfdividend) |中國信託 |||
+| [00946](https://www.capitalfund.com.tw/etfdividend) |中國信託 |[2412中華電]()|渣打銀行|
+| [4904遠傳]() |遠東國際商銀行 |[3045台哥大](https://www.fhtrust.com.tw/ETF_custService/)|富邦|
+| [1101台泥]() |中國信託 |[1102亞泥]()|國泰世華|
+| [2002中鋼]() |花旗 |[2705六福]()|合作金庫|
+| [2801彰銀]() |彰銀 |[2887台新]()|台新|
+| [2883凱基]() |凱基/中國信託/國泰世華 |[5880合庫金]()|合作金庫|
+| [2454聯發科]() |中國信託 |[2880華南金]()|華南銀行|
+| [2891中信金]() |中國信託 |[2884玉山金]()|花旗|
+| [8411福貞]() |台灣銀行 |[2867三商壽]()|玉山/華南|
+| [2303聯電]() |渣打銀行 |[2317鴻海]()|花旗|
+| [2912統一超]() |台銀/華南 |[2886兆豐金]()|兆豐銀行|
 
 |股票|#|日|週|
 |---|---|---|---|
